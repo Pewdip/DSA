@@ -107,13 +107,13 @@
 # 222
 #  33
 #   4
-n=int(input("Enter a number: "))
-for i in range(n):
-    for j in range(i):
-        print(" ",end="")
-    for k in range(n-i):
-        print(i+1,end="")
-    print()
+# n=int(input("Enter a number: "))
+# for i in range(n):
+#     for j in range(i):
+#         print(" ",end="")
+#     for k in range(n-i):
+#         print(i+1,end="")
+#     print()
 
 # for i in range(n):
 #     print(" " * (n-i-1) + str(i+1) * (i+1))
@@ -125,3 +125,4 @@ for i in range(n):
 #     print(str(i+1) * (n-i))
 # for i in range(n):
 #     print(" " * (n-i-1)+ str(i+1)*(i+1))
+#last statement 
