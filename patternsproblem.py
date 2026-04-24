@@ -114,7 +114,7 @@
 #     for k in range(n-i):
 #         print(i+1,end="")
 #     print()
-
+#or
 # for i in range(n):
 #     print(" " * (n-i-1) + str(i+1) * (i+1))
 # for i in range(n):
@@ -125,4 +125,20 @@
 #     print(str(i+1) * (n-i))
 # for i in range(n):
 #     print(" " * (n-i-1)+ str(i+1)*(i+1))
-#last statement 
+
+#Pyramid Pattern 
+#   *
+#  ***
+# *****
+# n=int(input("Enter a number: "))
+# for i in range(n):
+#     print(" " * (n-i-1) + "*" * (2*i+1))
+
+#Pyramid Pattern
+#   1
+#  123
+# 12345
+n=int(input("Enter a number: "))
+for i in range(n):
+    print(" " * (n-i-1) + "".join(str(j+1) for j in range(2*i+1)))
+    
