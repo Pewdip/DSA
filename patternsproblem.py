@@ -9,7 +9,6 @@
 #     for i in range(1,input+1):
 #          print(i,end=" ")
 #     print()
-
 #square pattern 
 #123
 #456
@@ -138,7 +137,8 @@
 #   1
 #  123
 # 12345
-n=int(input("Enter a number: "))
-for i in range(n):
-    print(" " * (n-i-1) + "".join(str(j+1) for j in range(2*i+1)))
+# n=int(input("Enter a number: "))
+# for i in range(n):
+#     print(" " * (n-i-1) + "".join(str(j+1) for j in range(2*i+1)))
+
     
